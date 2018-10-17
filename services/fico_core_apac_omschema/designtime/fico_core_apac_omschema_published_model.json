@@ -1,0 +1,350 @@
+{
+  "root" : "om_entity_core_application",
+  "rootAttributeName" : "application",
+  "version" : 1,
+  "draft" : false,
+  "entities" : {
+    "om_entity_core_samplecoreentity" : {
+      "id" : "om_entity_core_samplecoreentity",
+      "name" : "samplecoreentity",
+      "scope" : "core",
+      "additionalProperties" : false,
+      "attributes" : {
+        "id" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_samplecoreentity_id",
+          "javaType" : "integer",
+          "precision" : "null",
+          "length" : "20",
+          "listType" : false,
+          "keyOrder" : "null",
+          "name" : "id",
+          "key" : false,
+          "label" : "id",
+          "orderBy" : null,
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : "samplecoreentity",
+          "attribute" : false,
+          "description" : null
+        }
+      },
+      "lobName" : null,
+      "javaInterfaces" : null,
+      "description" : null,
+      "attribute" : false
+    },
+    "om_entity_core_newentitycollection" : {
+      "id" : "om_entity_core_newentitycollection",
+      "name" : "newentitycollection",
+      "scope" : "core",
+      "additionalProperties" : false,
+      "attributes" : {
+        "id" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_newentitycollection_id",
+          "javaType" : "integer",
+          "precision" : "null",
+          "length" : "20",
+          "listType" : false,
+          "keyOrder" : "null",
+          "name" : "id",
+          "key" : false,
+          "label" : "id",
+          "orderBy" : null,
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : "newentitycollection",
+          "attribute" : false,
+          "description" : null
+        }
+      },
+      "lobName" : null,
+      "javaInterfaces" : null,
+      "description" : null,
+      "attribute" : false
+    },
+    "om_entity_core_asdfasdf" : {
+      "id" : "om_entity_core_asdfasdf",
+      "name" : "asdfasdf",
+      "scope" : "core",
+      "additionalProperties" : false,
+      "attributes" : {
+        "id" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_asdfasdf_id",
+          "javaType" : "integer",
+          "precision" : "null",
+          "length" : "20",
+          "listType" : false,
+          "keyOrder" : "null",
+          "name" : "id",
+          "key" : false,
+          "label" : "id",
+          "orderBy" : null,
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : "asdfasdf",
+          "attribute" : false,
+          "description" : null
+        }
+      },
+      "lobName" : null,
+      "javaInterfaces" : null,
+      "description" : null,
+      "attribute" : false
+    },
+    "om_entity_core_samplenewattribute" : {
+      "id" : "om_entity_core_samplenewattribute",
+      "name" : "samplenewattribute",
+      "scope" : "core",
+      "additionalProperties" : false,
+      "attributes" : {
+        "newentitycollection" : {
+          "type" : "ENTITY",
+          "id" : "om_attribute_core_samplenewattribute_newentitycollection",
+          "name" : "newentitycollection",
+          "scope" : "core",
+          "description" : null,
+          "ref" : "om_entity_core_newentitycollection",
+          "listType" : true,
+          "attributeInfo" : {
+            "description" : null,
+            "attribute_name" : "newentitycollection",
+            "attribute_scope" : "core",
+            "id" : "om_attribute_core_samplenewattribute_newentitycollection",
+            "listType" : true
+          }
+        },
+        "id" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_samplenewattribute_id",
+          "javaType" : "integer",
+          "precision" : "null",
+          "length" : "20",
+          "listType" : false,
+          "keyOrder" : "null",
+          "name" : "id",
+          "key" : false,
+          "label" : "id",
+          "orderBy" : null,
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : "samplenewattribute",
+          "attribute" : false,
+          "description" : null
+        },
+        "asdfasdf" : {
+          "type" : "ENTITY",
+          "id" : "om_attribute_core_samplenewattribute_asdfasdf",
+          "name" : "asdfasdf",
+          "scope" : "core",
+          "description" : null,
+          "ref" : "om_entity_core_asdfasdf",
+          "listType" : false,
+          "attributeInfo" : {
+            "description" : null,
+            "attribute_name" : "asdfasdf",
+            "attribute_scope" : "core",
+            "id" : "om_attribute_core_samplenewattribute_asdfasdf",
+            "listType" : false
+          }
+        },
+        "ssn" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_samplenewattribute_ssn",
+          "javaType" : "ssn",
+          "precision" : "10",
+          "length" : "50",
+          "listType" : false,
+          "keyOrder" : "0",
+          "name" : "ssn",
+          "key" : false,
+          "label" : "ssn",
+          "orderBy" : "ascending",
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : null,
+          "attribute" : false,
+          "description" : null
+        }
+      },
+      "lobName" : null,
+      "javaInterfaces" : null,
+      "description" : null,
+      "attribute" : false
+    },
+    "om_entity_core_sampleentitycollection" : {
+      "id" : "om_entity_core_sampleentitycollection",
+      "name" : "sampleentitycollection",
+      "scope" : "core",
+      "additionalProperties" : false,
+      "attributes" : {
+        "samplenewattribute" : {
+          "type" : "ENTITY",
+          "id" : "om_attribute_core_sampleentitycollection_samplenewattribute",
+          "name" : "samplenewattribute",
+          "scope" : "core",
+          "description" : null,
+          "ref" : "om_entity_core_samplenewattribute",
+          "listType" : false,
+          "attributeInfo" : {
+            "description" : null,
+            "attribute_name" : "samplenewattribute",
+            "attribute_scope" : "core",
+            "id" : "om_attribute_core_sampleentitycollection_samplenewattribute",
+            "listType" : false
+          }
+        },
+        "samplestring" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_sampleentitycollection_samplestring",
+          "javaType" : "string",
+          "precision" : "0",
+          "length" : "50",
+          "listType" : false,
+          "keyOrder" : "1",
+          "name" : "samplestring",
+          "key" : true,
+          "label" : "samplestring",
+          "orderBy" : "ascending",
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : null,
+          "attribute" : false,
+          "description" : null
+        }
+      },
+      "lobName" : null,
+      "javaInterfaces" : null,
+      "description" : "aaassdfd",
+      "attribute" : false
+    },
+    "om_entity_core_application" : {
+      "id" : "om_entity_core_application",
+      "name" : "application",
+      "scope" : "core",
+      "additionalProperties" : false,
+      "attributes" : {
+        "samplecoreentity" : {
+          "type" : "ENTITY",
+          "id" : "om_attribute_core_application_samplecoreentity",
+          "name" : "samplecoreentity",
+          "scope" : "core",
+          "description" : null,
+          "ref" : "om_entity_core_samplecoreentity",
+          "listType" : true,
+          "attributeInfo" : {
+            "description" : null,
+            "attribute_name" : "samplecoreentity",
+            "attribute_scope" : "core",
+            "id" : "om_attribute_core_application_samplecoreentity",
+            "listType" : true
+          }
+        },
+        "inttypeattribute" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_application_inttypeattribute",
+          "javaType" : "integer",
+          "precision" : "0",
+          "length" : "50",
+          "listType" : false,
+          "keyOrder" : "1",
+          "name" : "inttypeattribute",
+          "key" : true,
+          "label" : "inttypeattribute",
+          "orderBy" : "descending",
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : { },
+          "entityName" : null,
+          "attribute" : false,
+          "description" : "int type attribute"
+        },
+        "countrylistdata" : {
+          "type" : "LOOKUP",
+          "ref" : "countrylist",
+          "id" : "countrylistdata",
+          "scope" : "core",
+          "label" : null,
+          "name" : "countrylistdata",
+          "description" : null,
+          "listType" : false,
+          "attribute" : false,
+          "entityName" : null
+        },
+        "sampleexistinattribute" : {
+          "type" : "ENTITY",
+          "id" : "om_attribute_core_application_sampleexistinattribute",
+          "name" : "sampleexistinattribute",
+          "scope" : "core",
+          "description" : null,
+          "ref" : "om_entity_core_sampleentitycollection",
+          "listType" : false,
+          "attributeInfo" : {
+            "description" : null,
+            "attribute_name" : "sampleexistinattribute",
+            "attribute_scope" : "core",
+            "id" : "om_attribute_core_application_sampleexistinattribute",
+            "listType" : false
+          }
+        },
+        "samplelookup" : {
+          "type" : "LOOKUP",
+          "ref" : "countrylist",
+          "id" : "samplelookup",
+          "scope" : "core",
+          "label" : null,
+          "name" : "samplelookup",
+          "description" : "country list description",
+          "listType" : false,
+          "attribute" : false,
+          "entityName" : null
+        },
+        "samplecoressn" : {
+          "type" : "PRIMITIVE",
+          "id" : "om_attribute_core_application_samplecoressn",
+          "javaType" : "ssn",
+          "precision" : "10",
+          "length" : "50",
+          "listType" : false,
+          "keyOrder" : "1",
+          "name" : "samplecoressn",
+          "key" : true,
+          "label" : "samplecoressn",
+          "orderBy" : "descending",
+          "configScope" : "core",
+          "scope" : "core",
+          "configurations" : {
+            "ismasked" : true,
+            "isqueryable" : true,
+            "issearchable" : true,
+            "issecured" : true
+          },
+          "entityName" : null,
+          "attribute" : false,
+          "description" : ""
+        }
+      },
+      "lobName" : null,
+      "javaInterfaces" : [ "java.io.Serializable" ],
+      "description" : "",
+      "attribute" : false
+    }
+  },
+  "additionalProperties" : false,
+  "id" : "fico_core_apac_omschema",
+  "title" : "core scope",
+  "lobName" : null,
+  "name" : null,
+  "scope" : "core",
+  "order" : 0,
+  "description" : "Create_AsiaPacific_core",
+  "scopesOrder" : [ "core" ]
+}

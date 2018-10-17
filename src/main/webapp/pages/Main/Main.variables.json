@@ -1,1 +1,63 @@
-{ }
+{
+  "SalesdbProductsData" : {
+    "_id" : "wm-SalesdbProductsData-wm.LiveVariable-1539775031708",
+    "name" : "SalesdbProductsData",
+    "owner" : "Page",
+    "category" : "wm.LiveVariable",
+    "dataBinding" : [ ],
+    "operation" : "read",
+    "dataSet" : [ ],
+    "type" : "Products",
+    "isList" : true,
+    "saveInPhonegap" : false,
+    "maxResults" : 20,
+    "designMaxResults" : 10,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "transformationRequired" : false,
+    "liveSource" : "salesdb",
+    "ignoreCase" : true,
+    "matchMode" : "startignorecase",
+    "orderBy" : "id asc",
+    "propertiesMap" : {
+      "columns" : [ {
+        "fieldName" : "id",
+        "type" : "integer",
+        "fullyQualifiedType" : "integer",
+        "columnName" : "ID",
+        "isPrimaryKey" : true,
+        "notNull" : true,
+        "length" : 255,
+        "precision" : 10,
+        "generator" : "identity",
+        "isRelated" : false,
+        "scale" : 0
+      }, {
+        "fieldName" : "name",
+        "type" : "string",
+        "fullyQualifiedType" : "string",
+        "columnName" : "NAME",
+        "isPrimaryKey" : false,
+        "notNull" : true,
+        "length" : 40,
+        "precision" : 19,
+        "generator" : "assigned",
+        "isRelated" : false,
+        "scale" : 2
+      } ],
+      "entityName" : "Products",
+      "fullyQualifiedName" : "com.testingleaveproject17thoct.salesdb.Products",
+      "tableType" : "TABLE",
+      "primaryFields" : [ "id" ]
+    },
+    "isDefault" : true,
+    "bindCount" : 1,
+    "tableName" : "PRODUCTS",
+    "tableType" : "TABLE",
+    "properties" : [ ],
+    "relatedTables" : [ ],
+    "filterExpressions" : { },
+    "package" : "com.testingleaveproject17thoct.salesdb.Products"
+  }
+}

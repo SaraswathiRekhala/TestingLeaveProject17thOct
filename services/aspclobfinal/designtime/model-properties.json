@@ -1,0 +1,8 @@
+{
+  "url" : "http://ec2-18-217-104-155.us-east-2.compute.amazonaws.com:8181",
+  "packageName" : "com.testingleaveproject17thoct.aspclobfinal",
+  "serviceId" : "aspclobfinal",
+  "defaultSchemaName" : "aspclobfinal",
+  "scope" : "lob",
+  "region" : "APAC"
+}

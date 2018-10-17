@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="fico_core_apac_omschema" type="ModelService" springFile="fico_core_apac_omschema.spring.xml"/>
