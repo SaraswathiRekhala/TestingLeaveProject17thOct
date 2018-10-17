@@ -5,7 +5,8 @@
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
         <wm-page-content columnwidth="8" name="mainContent" padding="unset 15px">
             <wm-livetable name="ProductsLiveTable1">
-                <wm-table gridfirstrowselect="true" editmode="form" name="ProductsTable1" title="Products List" dataset="bind:Variables.SalesdbProductsData.dataSet" navigation="Basic" filtermode="multicolumn" exportformat="EXCEL,CSV">
+                <wm-table gridfirstrowselect="true" editmode="form" name="ProductsTable1" title="Products List" dataset="bind:Variables.SalesdbProductsData.dataSet" navigation="Basic" filtermode="multicolumn" exportformat="EXCEL,CSV" on-beforefilter="ProductsTable1Beforefilter($event, $data)"
+                    on-beforeexport="ProductsTable1Beforeexport($data)">
                     <wm-table-column binding="id" caption="Id" primary-key="true" edit-widget-type="number" type="integer" generator="identity" readonly="true" show="true"></wm-table-column>
                     <wm-table-column binding="name" caption="Name" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
                     <wm-table-column binding="rowOperations" caption="Actions" width="120px" type="custom" readonly="true" sortable="false" searchable="false" show="true"></wm-table-column>
